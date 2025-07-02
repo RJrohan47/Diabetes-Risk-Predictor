@@ -73,7 +73,7 @@ The dataset contains several **medical predictors** and one **target variable**,
 
 ---
 
-## 🧠 Model Building
+## 🧠 Model Building 1
 
 - **Model Used**: Logistic Regression  
 - **Data Split**: Train-Test split (typically 80/20)  
@@ -96,6 +96,29 @@ The dataset contains several **medical predictors** and one **target variable**,
 
 ---
 
+## 🧠 Model Building 2
+
+- **Model Used**: Gaussian Naive Bayes 
+- **Data Split**: Train-Test split (typically 80/20)  
+- **Pipeline**: Preprocessing → Model Training → Prediction  
+
+---
+
+## 📏 Evaluation Metrics
+
+- **Accuracy**  
+- **Recall**  
+- **Precision**  
+- **Confusion Matrix**  
+- **ROC-AUC Curve**
+
+📌 **Model Performance**:
+- **Accuracy**: ~74%  
+- **Recall**: ~78%  
+> _High recall indicates strong ability to detect diabetic patients, which is critical in healthcare._
+
+---
+-- **Conclusion**: For our data set Logistic regression is more accurate ass compare to Naive Bayes
 ## 📊 Results
 
 - The model performs well with **strong recall**.
